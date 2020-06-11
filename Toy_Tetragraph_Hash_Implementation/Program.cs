@@ -11,7 +11,7 @@ namespace Toy_Tetragraph_Hash_Implementation
             //THINGS LEFT TO DO:
             //1)Take care of the cases where the character count is not divisible by 16
             //2)Make sure that it works when there are more than one block
-            //3)
+            //3)Make sure that it works with differnt convinations of 1 and 2 above.
             //4)
             //5)
 
