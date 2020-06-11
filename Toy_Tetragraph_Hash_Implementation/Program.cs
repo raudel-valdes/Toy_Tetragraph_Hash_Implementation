@@ -12,7 +12,7 @@ namespace Toy_Tetragraph_Hash_Implementation
             //1)Take care of the cases where the character count is not divisible by 16
             //2)Make sure that it works when there are more than one block
             //3)Make sure that it works with differnt convinations of 1 and 2 above.
-            //4)
+            //4)Make sure it works through command line string
             //5)
 
             string message = "";
@@ -26,8 +26,8 @@ namespace Toy_Tetragraph_Hash_Implementation
 
             if (args.Length == 0)
             {
-                // message = "I leave twenty million dollars to my friendly cousin Bill.".ToLower().Trim();
-                message = "ABCDEFGHIJKLMNOP".ToLower().Trim();
+                message = "I leave twenty million dollars to my friendly cousin Bill.".ToLower().Trim();
+                //message = "ABCDEFGHIJKLMNOP".ToLower().Trim();
             } else
             {
                 foreach(string arg in args)
